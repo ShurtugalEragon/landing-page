@@ -52,6 +52,7 @@ p {
 #section1Body {
     display: flex;
     margin: 100px 0 100px 0;
+    align-items: center;
 }
 
 img {
@@ -75,6 +76,11 @@ button {
 
 #section1Text {
     margin: 0 15vw 0 0;
+}
+
+#section1Credit {
+    display: flex;
+    justify-content: flex-end;
 }
 
 li {
@@ -103,7 +109,7 @@ li {
 }
 
 .section2Images img {
-    width: 150px;
+    width: 200px;
     height: 150px;
     border-color: #3882F6;
     border-style: solid;
@@ -147,7 +153,7 @@ li {
 }
 
 #section4Text {
-    margin: 0 20vw 0 0;
+    margin: 0 15vw 0 0;
 }
 
 #section4Text h2 {
